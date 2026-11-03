@@ -6,8 +6,6 @@ class Solution:
             n = temp % 10
             temp //= 10
             y = (y * 10 + n)
-        if x == y:
-            return True
-        else:
-            return False
+        
+        return x == y
 
